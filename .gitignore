@@ -8,3 +8,5 @@ _logs/
 .ipynb_checkpoints/
 
 .pre-commit-cache/
+
+.idea/
