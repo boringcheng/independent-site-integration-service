@@ -76,6 +76,7 @@ scripts/
 
 - [ADR-0001 架构与调度权威源](docs/adr/0001-architecture.md)
 - [ADR-0002 测试策略](docs/adr/0002-testing.md)
+- [依赖库详解](docs/learning/libraries.md)
 - [贡献指南](CONTRIBUTING.md)
 - [本地环境](docs/local-env.md)
 
