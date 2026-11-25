@@ -25,6 +25,10 @@ plugins = ["pydantic.mypy"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+# 把仓库根目录加入 sys.path：
+# 否则直接执行 `pytest`（CI 里就是）时 import app 会失败，
+# 只有 `python -m pytest` 才会自动把当前目录加进去。
+pythonpath = ["."]
 addopts = "-ra --strict-markers"
 markers = [
     "integration: 需要真实 MySQL 的测试",
