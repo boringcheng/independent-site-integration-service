@@ -2,5 +2,6 @@
 
 from app.models.base import Base
 from app.models.shop import Shop
+from app.models.task import ShopTaskQueue
 
-__all__ = ["Base", "Shop"]
+__all__ = ["Base", "Shop", "ShopTaskQueue"]
